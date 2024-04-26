@@ -1,0 +1,87 @@
+@charset "utf-8";
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+.w3-teal{
+	background:url(images/red%20black.png);
+	background-position:center;}
+.w3-xlarge:hover{
+	background:url(images/header2.jpg)}
+video{
+	width:1900px;
+	height:800px;}
+#i2{
+	 width:100%;
+	 height:auto;	
+	 }
+#d1{
+	float:right;
+	overflow:hidden;
+	width:100px;
+	height:80px;
+	background:#000;
+	transition-property:all;
+	transition-delay:0s;
+	transition-duration:3s;
+	transition-timing-function:ease-in;}
+#d1:hover {
+	width:15%;
+	height:15%;
+	background:#0F6;
+	transform:rotate(10deg);
+	}
+#i1 {
+	float:left;
+	overflow:hidden;
+  	width: 100px;
+  	height: 100px;
+  	transition-property:all;
+  	transition: width 2s, height 2s;
+}
+
+#i1:hover {
+	width:200px;
+	height:200px;
+}
+#d2{
+	
+	border:groove;
+	background:url(images/img1.png);
+	width:1443px;
+	height:465px;}
+#a1{
+	padding:10PX;
+	margin-top:100px;
+	margin-right:50px;
+	float:right;
+	border:1px solid #000;
+	border-radius:8px;
+	width:300px;
+	background:#000;
+	opacity:0.7;
+	}
+h1{
+
+	font-family:"franklin Gothic Book";
+	color:#FFF;
+	font-size:20px;}
+#footer{
+	width:100%;
+	height:auto;
+	opacity:0.7;}
+#f1{
+	float:right;
+	width:340px;
+	height:340px;
+	}
+h3:hover{
+	color:#F00;
+	}
+

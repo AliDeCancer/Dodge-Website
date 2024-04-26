@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.w3-teal{
+	background:url(../images/red%20black.png);
+	background-position:center;}
+.w3-xlarge:hover{
+	background:url(../images/header2.jpg);}
+#d1{
+	float:right;
+	overflow:hidden;
+	width:100px;
+	height:80px;
+	background:#000;
+	transition-property:all;
+	transition-delay:0s;
+	transition-duration:3s;
+	transition-timing-function:ease-in;}
+#d1:hover {
+	width:15%;
+	height:15%;
+	background:#0F6;
+	transform:rotate(10deg);
+	}
+#i1 {
+	float:left;
+	overflow:hidden;
+  	width: 100px;
+  	height: 100px;
+  	transition-property:all;
+  	transition: width 2s, height 2s;
+}
+
+#i1:hover {
+	width:200px;
+	height:200px;
+}
+</style>
+</head>
+
+<body bgcolor="#000000">
+
+ <!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <a href="../main.html" class="w3-bar-item w3-button">HOME</a>
+  <a href="Statement x Dodge.html" class="w3-bar-item w3-button">STATEMENT ❌ DODGE</a>
+  <a href="gallery.html" class="w3-bar-item w3-button">SRT GALLERY</a>
+  <a href="https://e-shop.dodge.com/t1?adobe_mc=MCMID%3D09228735402202208230247742910873259592%7CMCORGID%3D3ECF483F53AB366E0A490D44%2540AdobeOrg%7CTS%3D1617980633&ott=start-buying-process&refrel=dodge&vehicle_type=new/" class="w3-bar-item w3-button">VEHICLES</a>
+  <a href="https://www.dodge.com/bmo.html#/vehicles" class="w3-bar-item w3-button">BUILD & PRICE</a>
+  <a href="https://www.dodgegarage.com/" class="w3-bar-item w3-button">DODGE GARAGE</a>
+  <a href="https://www.mopar.com/dodge/en-us.html" class="w3-bar-item w3-button">OWNERS</a>
+  <a href="https://www.amazon.com/dodgestore?channel=dw_Dodge%20Website" class="w3-bar-item w3-button">MARCHANDISE</a>
+  <a href="https://www.dodge.com/dodge-muscle.html" class="w3-bar-item w3-button">DODGE MUSCLE</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1></h1>
+  </div>
+</div>
+<img id="i1" src="../images/logo.jpg" width="200px" height="200px">
+  <img id="d1" src="../images/img3.jpg" width="300px" height="200px">
+<center><img src="../images/logo5.jpg" alt="Car" style="width:25%; height:25%; background-color:transparent;"></center>
+
+<h1 style="text-align:center; font-size:36px; font-weight:bold; color:#FFF; font-family:'Arial Black', Gadget, sans-serif">CONTACT US</h1>
+<h2 style="text-align:center; font-size:24px; font-weight:bold; color:#FFF;">If you have any questions, please contact us via email at</h2> 
+<a href="dprivacy@fcagroup.com" style="color:#FFF; text-align:center"><h2>www.dprivacy@fcagroup.com</h2></a>
+
+
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
